@@ -173,6 +173,14 @@ a{
     width: 100%;
   }
 }
+@media (max-width: 480px){
+  .hero .landing .section h1::after{
+    left: 50px;
+  }
+  .hero .landing .section h1::before{
+    left: 120px;
+  }
+}
 .hero .landing .section h3{
   font-size: 24px;
   font-weight: 700;
